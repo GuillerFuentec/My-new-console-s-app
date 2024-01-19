@@ -1,0 +1,14 @@
+C:\Users\ghost\Learn C#\Proyecto guiado desarrollo de estructuras de bucle y bifurcación condicional en Csharp\Starter\bin\Debug\net8.0\Starter.exe
+C:\Users\ghost\Learn C#\Proyecto guiado desarrollo de estructuras de bucle y bifurcación condicional en Csharp\Starter\bin\Debug\net8.0\Starter.deps.json
+C:\Users\ghost\Learn C#\Proyecto guiado desarrollo de estructuras de bucle y bifurcación condicional en Csharp\Starter\bin\Debug\net8.0\Starter.runtimeconfig.json
+C:\Users\ghost\Learn C#\Proyecto guiado desarrollo de estructuras de bucle y bifurcación condicional en Csharp\Starter\bin\Debug\net8.0\Starter.dll
+C:\Users\ghost\Learn C#\Proyecto guiado desarrollo de estructuras de bucle y bifurcación condicional en Csharp\Starter\bin\Debug\net8.0\Starter.pdb
+C:\Users\ghost\Learn C#\Proyecto guiado desarrollo de estructuras de bucle y bifurcación condicional en Csharp\Starter\obj\Debug\net8.0\Starter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ghost\Learn C#\Proyecto guiado desarrollo de estructuras de bucle y bifurcación condicional en Csharp\Starter\obj\Debug\net8.0\Starter.AssemblyInfoInputs.cache
+C:\Users\ghost\Learn C#\Proyecto guiado desarrollo de estructuras de bucle y bifurcación condicional en Csharp\Starter\obj\Debug\net8.0\Starter.AssemblyInfo.cs
+C:\Users\ghost\Learn C#\Proyecto guiado desarrollo de estructuras de bucle y bifurcación condicional en Csharp\Starter\obj\Debug\net8.0\Starter.csproj.CoreCompileInputs.cache
+C:\Users\ghost\Learn C#\Proyecto guiado desarrollo de estructuras de bucle y bifurcación condicional en Csharp\Starter\obj\Debug\net8.0\Starter.dll
+C:\Users\ghost\Learn C#\Proyecto guiado desarrollo de estructuras de bucle y bifurcación condicional en Csharp\Starter\obj\Debug\net8.0\refint\Starter.dll
+C:\Users\ghost\Learn C#\Proyecto guiado desarrollo de estructuras de bucle y bifurcación condicional en Csharp\Starter\obj\Debug\net8.0\Starter.pdb
+C:\Users\ghost\Learn C#\Proyecto guiado desarrollo de estructuras de bucle y bifurcación condicional en Csharp\Starter\obj\Debug\net8.0\Starter.genruntimeconfig.cache
+C:\Users\ghost\Learn C#\Proyecto guiado desarrollo de estructuras de bucle y bifurcación condicional en Csharp\Starter\obj\Debug\net8.0\ref\Starter.dll
