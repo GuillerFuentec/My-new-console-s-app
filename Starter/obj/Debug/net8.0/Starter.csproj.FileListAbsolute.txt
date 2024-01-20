@@ -12,3 +12,4 @@ C:\Users\ghost\Learn C#\Proyecto guiado desarrollo de estructuras de bucle y bif
 C:\Users\ghost\Learn C#\Proyecto guiado desarrollo de estructuras de bucle y bifurcación condicional en Csharp\Starter\obj\Debug\net8.0\Starter.pdb
 C:\Users\ghost\Learn C#\Proyecto guiado desarrollo de estructuras de bucle y bifurcación condicional en Csharp\Starter\obj\Debug\net8.0\Starter.genruntimeconfig.cache
 C:\Users\ghost\Learn C#\Proyecto guiado desarrollo de estructuras de bucle y bifurcación condicional en Csharp\Starter\obj\Debug\net8.0\ref\Starter.dll
+C:\Users\ghost\Learn C#\Proyecto guiado desarrollo de estructuras de bucle y bifurcación condicional en Csharp\Starter\obj\Debug\net8.0\Starter.sourcelink.json

@@ -78,6 +78,11 @@ for (int i = 0; i < maxPets; i++)
 
 do
 {
+    // local variables for the menu
+    bool validEntry = false;
+    string anotherPet = "y";
+    int petCount = 0;
+
     // display the top-level menu options
 
     Console.Clear();
@@ -126,8 +131,6 @@ do
 
         case "2":
             // Add a new animal friend to the ourAnimals array
-            string anotherPet = "y";
-            int petCount = 0;
             for (int i = 0; i < maxPets; i++)
             {
                 if (ourAnimals[i, 0] != "ID #: ")
@@ -143,8 +146,6 @@ do
 
             while (anotherPet == "y" && petCount < maxPets)
             {
-                bool validEntry = false;
-                
                 // get species (cat or dog) - string animalSpecies is a required field 
                 do
                 {
@@ -167,41 +168,6 @@ do
 
                 // build the animal the ID number - for example C1, C2, D3 (for Cat 1, Cat 2, Dog 3)
                 animalID = animalSpecies.Substring(0, 1) + (petCount + 1).ToString();
-
-                // get the pet's age. can be ? at initial entry.
-                do
-                {
-                    int petAge;
-                    Console.WriteLine("Enter the pet's age or enter ? if unknown");
-                    readResult = Console.ReadLine();
-                    if (readResult != null)
-                    {
-                        animalAge = readResult;
-                        if (animalAge != "?")
-                        {
-                            validEntry = int.TryParse(animalAge, out petAge);
-                        }
-                        else
-                        {
-                            validEntry = true;
-                        }
-                    }
-                } while (validEntry == false);
-
-                // get a description of the pet's physical appearance/condition - animalPhysicalDescription can be blank.
-                do
-                {
-                    Console.WriteLine("Enter a physical description of the pet (size, color, gender, weight, housebroken)");
-                    readResult = Console.ReadLine();
-                    if (readResult != null)
-                    {
-                        animalPhysicalDescription = readResult.ToLower();
-                        if (animalPhysicalDescription == "")
-                        {
-                            animalPhysicalDescription = "tbd";
-                        }
-                    }
-                } while (animalPhysicalDescription == "");
 
                 // get a description of the pet's personality - animalPersonalityDescription can be blank.
                 do
@@ -272,7 +238,54 @@ do
 
         case "3":
             // Ensure animal ages and physical descriptions are complete
-            Console.WriteLine("Challenge Project - please check back soon to see progress.");
+
+            for (int i = 0; i < maxPets; i++)
+            {
+                if (ourAnimals[i, 0] != "ID #: ")
+                {
+                    petCount += 1;
+                }
+            }
+
+            // get the pet's age. can be ? at initial entry.
+            do
+            {
+                if (petCount < maxPets)
+                {
+                    int petAge;
+                    Console.WriteLine($"Enter the pet age or enter ? if unknown for {ourAnimals[(petCount - 1), 0]}");
+                    readResult = Console.ReadLine();
+
+                    if (readResult != null)
+                    {
+                        animalAge = readResult;
+                        if (animalAge != "?")
+                        {
+                            validEntry = int.TryParse(animalAge, out petAge);
+                        }
+                        else
+                        {
+                            validEntry = true;
+                        }
+                    }
+                }
+
+            } while (validEntry == false);
+
+            // get a description of the pet's physical appearance/condition - animalPhysicalDescription can be blank.
+            do
+            {
+                Console.WriteLine("Enter a physical description of the pet (size, color, gender, weight, housebroken)");
+                readResult = Console.ReadLine();
+                if (readResult != null)
+                {
+                    animalPhysicalDescription = readResult.ToLower();
+                    if (animalPhysicalDescription == "")
+                    {
+                        animalPhysicalDescription = "tbd";
+                    }
+                }
+            } while (animalPhysicalDescription == "");
             Console.WriteLine("Press the Enter key to continue.");
             readResult = Console.ReadLine();
             break;
@@ -297,7 +310,7 @@ do
             Console.WriteLine("Press the Enter key to continue.");
             readResult = Console.ReadLine();
             break;
-        
+
         case "7":
             // Display all cats with a specified characteristic
             Console.WriteLine("UNDER CONSTRUCTION - please check back next month to see progress.");
